@@ -5,5 +5,7 @@
 
   const div = document.querySelector('#output_a');
   div.innerText = path.resolve(__filename);
+
+  require('./lib/b');
 })();
 
